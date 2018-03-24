@@ -22,7 +22,7 @@
           span Remember Me
     .field.is-grouped
       .control
-        a(href='/register').button.is-text Register
+        a(href='/#/register').button.is-text Register
       .control
         button.button(type="submit").is-primary Login
 </template>
@@ -34,4 +34,8 @@ export default {
 </script>
 
 <style lang="css">
+#login-form {
+  max-width: 400px;
+  margin: auto;
+}
 </style>

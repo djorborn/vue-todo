@@ -20,7 +20,7 @@
             i.fa lock
     .field.is-grouped
       .control
-        a(href="/login").button.is-text Login
+        a(href="/#/login").button.is-text Login
         p.help Already Have An Account
       .control
         button.button(type="submit").is-primary Submit
